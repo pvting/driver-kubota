@@ -1,0 +1,53 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/00326434/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"Serial_kubota-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "Serial_kubota",
+			"buildCommand" : "/Users/00326434/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/.externalNativeBuild/cmake/release/arm64-v8a --target Serial_kubota",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/00326434/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/00326434/Library/Android/sdk/ndk-bundle/sysroot  -DSerial_kubota_EXPORTS -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/00326434/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/00326434/Library/Android/sdk/ndk-bundle/sysroot  -DSerial_kubota_EXPORTS -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/src/main/cpp/serialPort.cpp",
+					"workingDirectory" : "/Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/00326434/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/00326434/Library/Android/sdk/ndk-bundle/sysroot  -DSerial_kubota_EXPORTS -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/00326434/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/src/main/cpp/protocol.cpp",
+					"workingDirectory" : "/Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/00326434/Documents/comProj/NDK_so/driver-jiubaotian/app/build/intermediates/cmake/release/obj/arm64-v8a/libSerial_kubota.so",
+			"toolchain" : "17300586081173979026"
+		}
+	},
+	"toolchains" : 
+	{
+		"17300586081173979026" : 
+		{
+			"cCompilerExecutable" : "/Users/00326434/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/00326434/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
